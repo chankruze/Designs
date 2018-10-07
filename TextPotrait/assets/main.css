@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    widows: 100vh;
+    background: #000;
+}
+p{
+    font-size: 10px;
+    line-height: 10px;
+    background: url(elliot.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255,255,255,0);
+}
