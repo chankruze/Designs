@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    width: 100%;
+}
+.container .section{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+.container .section:nth-child(1){
+    background: url(images/bomber.jpg);
+    background-size: cover;
+}
+.container .section:nth-child(2){
+    background: url(images/ops.jpg);
+    background-size: cover;
+}
+.container .section:nth-child(3){
+    background: url(images/six.jpg);
+    background-size: cover;
+}
+.container .section:nth-child(4){
+    background: url(images/snow.jpg);
+    background-size: cover;
+}
+.container .section:nth-child(5){
+    background: url(images/tom.jpg);
+    background-size: cover;
+}
