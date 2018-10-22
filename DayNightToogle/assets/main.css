@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 body
 {
     margin: 0;
@@ -67,5 +69,16 @@ body.night
 body.night .content h1,
 body.night .content p
 {
+    color: #fff;
+}
+
+footer{
+  top: 95%;
+  left: 93.5%;
+  position: absolute;
+  font-family: 'Pacifico', cursive;
+}
+
+body.night footer{
     color: #fff;
 }

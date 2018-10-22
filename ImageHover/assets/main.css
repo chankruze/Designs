@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 body
 {
     margin: 0;
@@ -71,4 +73,11 @@ body
     margin: 20px 0 0;
     padding: 0;
     font-size: 16px;
+}
+
+footer{
+  top: 95%;
+  left: 93.5%;
+  position: absolute;
+  font-family: 'Pacifico', cursive;
 }

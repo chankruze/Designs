@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
 body{
     margin: 0;
     padding: 0;
@@ -32,4 +35,11 @@ body{
 .container .section:nth-child(5){
     background: url(images/tom.jpg);
     background-size: cover;
+}
+
+footer{
+  top: 95%;
+  left: 93.5%;
+  position: absolute;
+  font-family: 'Pacifico', cursive;
 }

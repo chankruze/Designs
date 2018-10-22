@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
 body{
     margin: 0;
     padding: 0;
@@ -60,4 +63,11 @@ ul li:nth-child(4) a:hover .fab{
 }
 ul li:nth-child(5) a:hover .fab{
     color: #0089fa; /* #f4f9fd Telegram*/
+}
+
+footer{
+  top: 95%;
+  left: 93.5%;
+  position: absolute;
+  font-family: 'Pacifico', cursive;
 }
