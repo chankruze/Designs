@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg,#7F7FD5,#86A8E7,#91EAE4);
+}
+
+.reacts{
+  width: 450px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  overflow: hidden;
+}
+
+.reacts img{
+  width: 60px;
+  height: 60px;
+  padding: 3px;
+  background: transparent;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: slide 0.2s ease-in-out forwards;
+          animation: slide 0.2s ease-in-out forwards;
+  cursor: pointer;
+  position: relative;
+}
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+    opacity: 0;
+  }
+}
+@keyframes slide {
+  0% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+    opacity: 0;
+  }
+}
+.reacts img:nth-child(1) {
+  -webkit-animation-duration: calc(0.2s * 1);
+          animation-duration: calc(0.2s * 1);
+}
+.reacts img:nth-child(2) {
+  -webkit-animation-duration: calc(0.2s * 2);
+          animation-duration: calc(0.2s * 2);
+}
+.reacts img:nth-child(3) {
+  -webkit-animation-duration: calc(0.2s * 3);
+          animation-duration: calc(0.2s * 3);
+}
+.reacts img:nth-child(4) {
+  -webkit-animation-duration: calc(0.2s * 4);
+          animation-duration: calc(0.2s * 4);
+}
+.reacts img:nth-child(5) {
+  -webkit-animation-duration: calc(0.2s * 5);
+          animation-duration: calc(0.2s * 5);
+}
+.reacts img:nth-child(6) {
+  -webkit-animation-duration: calc(0.2s * 6);
+          animation-duration: calc(0.2s * 6);
+}
+.reacts img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.like {
+  width: auto;
+  height: 40px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: calc(50% - 150px);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  clear: both;
+  line-height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  outline: hidden;
+}
+.like i, .like p {
+  display: inline-block;
+  color: #558CFF;
+  font-size: 18px;
+  margin: 0 3px;
+}
+.like p {
+  font-family: Sans-serif;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media screen and (max-width: 576px) {
+  .reacts {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
+footer{
+  top: 95%;
+  left: 93.5%;
+  position: absolute;
+  font-family: 'Pacifico', cursive;
+}
+
+/* optional */
+
+.reacts:hover img{
+    opacity: 0.5;
+}
+
+.reacts img:hover{
+    opacity: 1;
+}
