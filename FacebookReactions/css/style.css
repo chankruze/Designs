@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   height: 100vh;
   display: flex;
@@ -13,7 +12,9 @@ body {
   align-items: center;
   background: linear-gradient(90deg,#7F7FD5,#86A8E7,#91EAE4);
 }
-
+body::-webkit-scrollbar {
+    width: 0px;
+}
 .reacts{
   width: 450px;
   height: 80px;

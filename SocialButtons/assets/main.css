@@ -6,6 +6,9 @@ body{
     padding: 0;
     background: #dedede;
 }
+body::-webkit-scrollbar {
+    width: 0px;
+}
 ul{
     position: absolute;
     top: 50%;

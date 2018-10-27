@@ -11,6 +11,9 @@ body{
     widows: 100vh;
     background: #000;
 }
+body::-webkit-scrollbar {
+    width: 0px;
+}
 p{
     font-size: 10px;
     line-height: 10px;

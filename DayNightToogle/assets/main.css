@@ -7,6 +7,9 @@ body
     font-family: sans-serif;
     transition: 0.5s;
 }
+body::-webkit-scrollbar {
+    width: 0px;
+}
 body.night
 {
     background: #00151f;

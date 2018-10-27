@@ -9,6 +9,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+body::-webkit-scrollbar {
+    width: 0px;
+}
 .container{
     position: relative;
     width: 240px;

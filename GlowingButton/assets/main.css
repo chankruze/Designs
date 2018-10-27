@@ -7,6 +7,9 @@ body{
     background: url(bomber.jpg);
     background-size: cover;
 }
+body::-webkit-scrollbar {
+    width: 0px;
+}
 a{
     position: absolute;
     top: 50%;

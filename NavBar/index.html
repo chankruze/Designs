@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NavBar | Apple</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+	<nav>
+		<div class="menu">
+			<ul>
+				<li><a href="#"><i class="fa fa-apple"></i></a></li>
+				<li><a href="#" class="menu-item">Mac</a></li>
+				<li><a href="#" class="menu-item">iPad</a></li>
+				<li><a href="#" class="menu-item">iPhone</a></li>
+				<li><a href="#" class="menu-item">Watch</a></li>
+				<li><a href="#" class="menu-item">TV</a></li>
+				<li><a href="#" class="menu-item">Msic</a></li>
+				<li><a href="#" class="menu-item">Support</a></li>
+				<li><a href="#" id="search"><i class="fa fa-search"></i></a></li>
+				<li><a href="#" id="basket"><i class="fa fa-shopping-basket"></i></a></li>
+			</ul>
+			<div class="search-form">
+				<form>
+					<input type="text" name="" placeholder="Search apple.com">
+				</form>
+			</div>
+			<a href="#" class="close"><i class="fa fa-close"></i></a>
+		</div>
+	</nav>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('#search').click(function(){
+  			$('.menu-item').addClass('hide-item')
+  			$('.search-form').addClass('active')
+  			$('.close').addClass('active')
+  			$('#search').hide()
+  		})
+  		$('.close').click(function(){
+  			$('.menu-item').removeClass('hide-item')
+  			$('.search-form').removeClass('active')
+  			$('.close').removeClass('active')
+  			$('#search').show()
+  		})
+  	})
+  </script>
+
+</body>
+</html>

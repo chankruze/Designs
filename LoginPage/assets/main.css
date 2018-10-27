@@ -7,6 +7,9 @@ body{
     background-image: url(snow.jpg);
     background-size: cover;
 }
+body::-webkit-scrollbar {
+    width: 0px;
+}
 .box{
     position: absolute;
     top: 50%;

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Acme');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Acme', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(90deg,#396afc,#2948ff);
+}
+body::-webkit-scrollbar {
+    width: 0px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row-reverse;
+}
+ul li{
+	list-style: none;
+	color: #ededed;
+	font-weight: bold;
+	font-size: 8em;
+	letter-spacing: 10px;
+	filter: blur(0.5px);
+	transition: 0.5s;
+}
+ul li:hover,
+ul li:hover ~ li{
+	transform: rotate(180deg) translateY(-300px);
+	transition: 2s;
+	filter: blur(30px);
+	opacity: 0;
+}
+footer{
+  top: 95%;
+  left: 93.5%;
+  position: absolute;
+  font-family: 'Pacifico', cursive;
+}
