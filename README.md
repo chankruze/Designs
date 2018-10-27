@@ -17,7 +17,7 @@ Some cool UI designs for web development
 - [StickySection](https://chankruze.github.io/Designs/StickySection)
 - [TextPotrait](https://chankruze.github.io/Designs/TextPotrait) **CR**
 - [TextReflection](https://chankruze.github.io/Designs/TextReflection) **CR**
-- [NavBar](https://chankruze.github.io/Designs/NavBar)
+- [AppleNavBar](https://chankruze.github.io/Designs/AppleNavBar)
 - [GhostText](https://chankruze.github.io/Designs/GhostText)
 
 ## Developers
